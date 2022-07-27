@@ -1,0 +1,139 @@
+/* STILI GENERALI */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+    background: url(background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-position: top;
+  }
+
+.global {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* STILE FONT */
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  color: #00DD00;
+  font-size: 32px;
+  font-weight: 600;
+  padding-bottom: 5px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/* STILE CONTAINER PRINCIPALE SFONDO SCURO E CONTENITORE LOGO E TITOLO */
+
+.big-container {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  margin: 30px 0 50px 0;
+  padding: 60px 170px;
+  border-radius: 20px;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 40%;
+  align-items: center;
+  padding: 10px 0;
+}
+
+/* STILE CONTAINER BOTTONI */
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background-color: #00DD00;
+  width: 97%;
+  padding: 15px;
+}
+
+button {
+  padding: 3px 10px;
+}
+
+/* STILE CONTAINER SCOOTER E SINGOLI SCOOTER */
+
+.scooter-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  align-self: flex-start;
+  
+}
+
+.single-scooter-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.scooter-name {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.scooter-info {
+  padding-bottom: 20px;
+}
+.scooter-info > p {
+  padding-bottom: 5px;
+}
+
+.first-scooter {
+  padding: 15px 0;
+  width: 90%;
+  background-color: #F5B453;
+  border-radius: 5px;
+}
+
+.second-scooter {
+  padding: 15px 0;
+  width: 150%;
+  background-color: #1EC31E;
+  border-radius: 5px;
+}
+
+.third-scooter {
+  padding: 15px 0;
+  width: 50%;
+  background-color: #BE4141;
+  border-radius: 5px;
+}
+
+input {
+  width: 15px;
+}
